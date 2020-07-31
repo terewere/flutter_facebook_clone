@@ -13,9 +13,9 @@ class FacbookClone extends StatelessWidget {
       children: [
         Container(
           color: Colors.white,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: ListView(
+//            mainAxisSize: MainAxisSize.min,
+//            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Divider(),
               Row(
@@ -159,13 +159,11 @@ class FacbookClone extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Expanded(
-                child: Image.asset(
-                  'images/eid.jpeg',
-                  width: size.width,
-                  height: 30,
-                  fit: BoxFit.fitWidth,
-                ),
+              Image.asset(
+                'images/eid.jpeg',
+                width: size.width,
+                height: 300,
+                fit: BoxFit.fitWidth,
               ),
               SizedBox(
                 height: 5,
