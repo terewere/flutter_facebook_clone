@@ -58,7 +58,10 @@ class FacbookClone extends StatelessWidget {
                             color: Colors.red,
                           ),
                         ),
-                        Text('Live'),
+                        Text(
+                          'Live',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                       ],
                     ),
                     VerticalDivider(
@@ -73,7 +76,10 @@ class FacbookClone extends StatelessWidget {
                             color: Colors.green,
                           ),
                         ),
-                        Text('Photo'),
+                        Text(
+                          'Photo',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                       ],
                     ),
                     VerticalDivider(
@@ -88,7 +94,10 @@ class FacbookClone extends StatelessWidget {
                             color: Colors.deepPurple,
                           ),
                         ),
-                        Text('Live'),
+                        Text(
+                          'Room',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                       ],
                     ),
                   ],
