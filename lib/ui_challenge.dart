@@ -14,8 +14,6 @@ class FacbookClone extends StatelessWidget {
         Container(
           color: Colors.white,
           child: ListView(
-//            mainAxisSize: MainAxisSize.min,
-//            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Divider(),
               Row(
