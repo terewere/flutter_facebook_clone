@@ -10,8 +10,6 @@ void main() {
 class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-//    print(size.width);
-
     SystemChrome.setSystemUIOverlayStyle(
         SystemUiOverlayStyle(statusBarColor: Colors.white));
     return MaterialApp(
