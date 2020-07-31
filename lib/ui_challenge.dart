@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+//code link on Github
+//https://github.com/terewere/flutter_facebook_clone
+
 class FacbookClone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
